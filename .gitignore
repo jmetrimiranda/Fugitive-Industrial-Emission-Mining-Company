@@ -1,3 +1,4 @@
 #ignoring .xls files
 *.xlsx
-
+#ignoring .venv
+.venv/
