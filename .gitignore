@@ -1,3 +1,10 @@
 #ignoring .xls files
 *.xlsx
+#ignoring .venv
+.venv/
 
+# Manim outputs
+references/manim_media_vetorial/media/
+references/manim_media_vetorial/__pycache__/
+references/manim_media_vetorial/*.log
+reports/media_vetorial_final.mp4
