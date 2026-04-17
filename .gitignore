@@ -1,4 +1,15 @@
-#ignoring .xls files
-*.xlsx
-#ignoring .venv
+# Python virtual environment
 .venv/
+
+# Python bytecode / caches
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Manim outputs
+references/manim_media_vetorial/media/
+references/manim_media_vetorial/__pycache__/
+references/manim_media_vetorial/*.log
+reports/media_vetorial_final.mp4
